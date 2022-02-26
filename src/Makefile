@@ -21,7 +21,7 @@ CCFLAGS = $(CCOPT) -I$(CPLEXINCDIR) -I$(CONCERTINCDIR)
 
 SOURCES=Arc.cpp Binomial.cpp Config.cpp Data.cpp Instance.cpp IntegerSolver.cpp Knapsack.cpp Label.cpp LinearSolver.cpp NegBinomial.cpp Poisson.cpp PolicySolverI.cpp Pricing.cpp RoundedCapacityCut.cpp Route.cpp Separation3SRC.cpp SeparationRCC.cpp Solution.cpp Solver.cpp Stats.cpp SubsetRowCut.cpp SwitchPolicy.cpp main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-	EXECUTABLE=main
+	EXECUTABLE=vrpsd
 
 all: $(SOURCES) $(EXECUTABLE)
 
