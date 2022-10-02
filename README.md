@@ -1,1 +1,1 @@
-# Elementary Branch-Cut-and-Price for the VRPSD under Optimal Restocking
+# Elementary Branch-Price-and-Cut for the VRPSD under Optimal Restocking
