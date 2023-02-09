@@ -3,9 +3,9 @@
 ## Description
 This repository contains the source code and datasets to allow the replication of the results from the paper:
 
-[1] **Florio, A. M., Gendreau, M., Hartl, R. F., Minner, S., & Vidal, T. (2022). Recent Advances in Vehicle Routing with Stochastic Demands: Bayesian Learning for Correlated Demands and Elementary Branch-Price-and-Cut. European Journal of Operational Research 306(3).**
+**Florio, A. M., Gendreau, M., Hartl, R. F., Minner, S., & Vidal, T. (2022). Recent Advances in Vehicle Routing with Stochastic Demands: Bayesian Learning for Correlated Demands and Elementary Branch-Price-and-Cut. European Journal of Operational Research 306(3).**
 
-The paper is also available freely at [https://arxiv.org/abs/2302.02538](https://arxiv.org/abs/2302.02538)
+The paper is also freely available at [https://arxiv.org/abs/2302.02538](https://arxiv.org/abs/2302.02538)
 
 The code implements a branch-cut-and-price (BP&C) algorithm for the VRPSD under optimal restocking.
 
