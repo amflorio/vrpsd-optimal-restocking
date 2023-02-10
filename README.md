@@ -7,7 +7,7 @@ This repository contains the source code and datasets to allow the replication o
 
 The paper is also freely available at [https://arxiv.org/abs/2302.02538](https://arxiv.org/abs/2302.02538)
 
-The code implements a branch-cut-and-price (BP&C) algorithm for the VRPSD under optimal restocking.
+The code implements a branch-price-and-cut (BP&C) algorithm for the VRPSD under optimal restocking.
 
 ## Dependencies
 The implementation requires:
