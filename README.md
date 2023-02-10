@@ -12,9 +12,10 @@ The code implements a branch-cut-and-price (BP&C) algorithm for the VRPSD under 
 ## Dependencies
 The implementation requires:
 * The [CPLEX Optimization Studio](https://www.ibm.com/ca-en/products/ilog-cplex-optimization-studio), which is free for academic use.
+* The [CVRPSEP](https://econ.au.dk/research/researcher-websites/jens-lysgaard/cvrpsep) library for the separation of capacity cuts. The CVRPSEP sources are included in this repo.
 
 ## Building and Running
-A `Makefile` is provided for reference only. This should be adapted to match the specific host requirements, including `CPLEX` header files and libraries.
+A `Makefile` is provided for reference only. This should be adapted to match the specific host requirements, including `CPLEX` header files and libraries. The CVRPSEP library should be compiled separately.
 
 The code compiles into a single executable `vrpsd`. To facilitate scripting, a numerical code is assigned to each standard VRPSD instance. This mapping is available in the source file `Instance.cpp`. For example, instance `A-n32-k5` (Augerat, 1995) corresponds to the instance number `2001`. To solve this instance, simply run:
 
