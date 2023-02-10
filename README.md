@@ -16,12 +16,15 @@ The implementation requires:
 ## Building and Running
 A `Makefile` is provided for reference only. This should be adapted to match the specific host requirements, including `CPLEX` header files and libraries.
 
-The code compiles into a single executable `vrpsd`. To facilitate scripting, a numerical code is assigned to each standard VRPSD instance. This mapping is available at the source file `Instance.cpp`. For example, instance `A-n32-k5` (Augerat, 1995) corresponds to the instance number `2001`.
-
-To solve this instance, simply run:
+The code compiles into a single executable `vrpsd`. To facilitate scripting, a numerical code is assigned to each standard VRPSD instance. This mapping is available in the source file `Instance.cpp`. For example, instance `A-n32-k5` (Augerat, 1995) corresponds to the instance number `2001`. To solve this instance, simply run:
 
 ```
 $ ./vrpsd 0 2001
+```
+
+Basic instance information is displayed before the algorithm starts to execute:
+
+```
 Instance info:
 ID: 2001
 N: 31
